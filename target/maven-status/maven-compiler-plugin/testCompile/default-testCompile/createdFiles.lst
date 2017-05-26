@@ -1,0 +1,4 @@
+com\appdebug\pages\user_flow\Calculator.class
+com\appdebug\steps\UserSteps.class
+com\appdebug\AcceptanceTestSuite.class
+com\appdebug\steps\serenity\UserFlow.class

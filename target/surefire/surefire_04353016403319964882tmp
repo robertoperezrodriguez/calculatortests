@@ -1,0 +1,7 @@
+#surefire_0
+#Wed May 24 17:01:55 CEST 2017
+org.slf4j.simpleLogger.defaultLogLevel=DEBUG
+user.dir=C\:\\veon\\testing
+webdriver.driver=appium
+localRepository=C\:\\Users\\rperez\\.m2\\repository
+basedir=C\:\\veon\\testing

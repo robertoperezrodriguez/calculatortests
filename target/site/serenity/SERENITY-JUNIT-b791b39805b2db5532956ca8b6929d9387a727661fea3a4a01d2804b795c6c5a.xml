@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="as a user I want to be able to use the calculator to add two integer numbers" skipped="0" tests="3" time="141.87" timestamp="2017-05-144 05:01:57"><testcase name="simple addition of single digit natural numbers"/><testcase name="addition of two digits natural numbers"/><testcase name="addition of one positive and one negative number"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)&#13;
+com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)&#13;
+✽.Then the user should see as result the value '-11'(arithmetic operations/addition.feature:19)&#13;
+</system-err></testcase></testsuite>
