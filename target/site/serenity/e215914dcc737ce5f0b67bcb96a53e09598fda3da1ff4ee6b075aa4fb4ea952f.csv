@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"as a user I want to be able to divide two integer numbers","division of a integer by zero","ERROR","2017-05-26T09:52:14.394+02:00","0.0","47.22"

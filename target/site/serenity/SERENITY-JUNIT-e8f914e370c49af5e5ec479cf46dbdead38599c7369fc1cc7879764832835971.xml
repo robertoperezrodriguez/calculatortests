@@ -1,5 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="as a user I want to be able to divide two integer numbers" skipped="0" tests="3" time="145.56" timestamp="2017-05-144 05:04:26"><testcase name="division of two positive integers (exact result)"/><testcase name="division of two negative integers (exact result)"/><testcase name="division of a positive and a negative integer (exact result)"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="as a user I want to be able to divide two integer numbers" skipped="0" tests="5" time="212.14" timestamp="2017-05-146 09:50:06"><testcase name="division of two positive integers (exact result)"/><testcase name="division of two negative integers (exact result)"/><testcase name="division of a positive and a negative integer (exact result)"><failure type="java.lang.AssertionError"/><system-err>null&#13;
 com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)&#13;
 com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)&#13;
 ✽.Then the user should see as result the value '-2'(arithmetic operations/division.feature:19)&#13;
-</system-err></testcase></testsuite>
+</system-err></testcase><testcase name="division of a integer by zero"><error message="Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+com.appdebug.pages.user_flow.Calculator.getResult(Calculator.java:68)&#13;
+com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)&#13;
+com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)&#13;
+</system-err></testcase><testcase name="division of zero by an integer"/></testsuite>

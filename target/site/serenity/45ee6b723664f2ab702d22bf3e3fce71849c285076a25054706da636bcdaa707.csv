@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"as a user I want to be able to divide two integer numbers","division of two negative integers (exact result)","SUCCESS","2017-05-26T09:50:48.312+02:00","0.0","40.39"
+"as a user I want to be able to divide two integer numbers","division of two positive integers (exact result)","SUCCESS","2017-05-26T09:50:06.179+02:00","0.0","40.43"
+"as a user I want to be able to divide two integer numbers","division of zero by an integer","SUCCESS","2017-05-26T09:53:03.697+02:00","0.0","42.12"

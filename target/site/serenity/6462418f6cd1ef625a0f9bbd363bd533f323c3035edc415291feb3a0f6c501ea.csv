@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"as a user I want to be able to multiply two integer numbers","multiplication of two negative integers","SUCCESS","2017-05-26T09:55:20.059+02:00","0.0","45.54"
+"as a user I want to be able to multiply two integer numbers","multiplication of two positive integers","SUCCESS","2017-05-26T09:53:47.909+02:00","0.0","40.63"

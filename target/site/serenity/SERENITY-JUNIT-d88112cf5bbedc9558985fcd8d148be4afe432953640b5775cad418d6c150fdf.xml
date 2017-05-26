@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="as a user I want to be able to subtract two integer numbers" skipped="0" tests="4" time="168.49" timestamp="2017-05-146 09:56:07"><testcase name="subtraction of two single digit natural numbers with positive result"/><testcase name="subtraction of two single digit natural numbers with negative result"/><testcase name="subtraction of a positive and a negative integer"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)&#13;
+com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)&#13;
+✽.Then the user should see as result the value '3'(arithmetic operations/subtraction.feature:19)&#13;
+</system-err></testcase><testcase name="subtraction of two negative numbers"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)&#13;
+com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)&#13;
+✽.Then the user should see as result the value '1'(arithmetic operations/subtraction.feature:25)&#13;
+</system-err></testcase></testsuite>

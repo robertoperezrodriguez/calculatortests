@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"as a user I want to be able to use the calculator to add two integer numbers","addition of one positive and one negative number","FAILURE","2017-05-26T09:49:25.014+02:00","0.0","39.34"
+"as a user I want to be able to divide two integer numbers","division of a positive and a negative integer (exact result)","FAILURE","2017-05-26T09:51:30.559+02:00","0.0","41.97"
+"as a user I want to be able to multiply two integer numbers","multiplication of one positive and one negative integer","FAILURE","2017-05-26T09:54:30.766+02:00","0.0","46.49"
+"as a user I want to be able to subtract two integer numbers","subtraction of a positive and a negative integer","FAILURE","2017-05-26T09:57:38.118+02:00","0.0","41.21"
+"as a user I want to be able to subtract two integer numbers","subtraction of two negative numbers","FAILURE","2017-05-26T09:58:21.518+02:00","0.0","40.93"

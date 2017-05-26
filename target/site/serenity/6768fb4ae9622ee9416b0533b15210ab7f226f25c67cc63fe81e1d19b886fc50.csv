@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"as a user I want to be able to use the calculator to add two integer numbers","addition of one positive and one negative number","FAILURE","2017-05-26T09:49:25.014+02:00","0.0","39.34"
+"as a user I want to be able to use the calculator to add two integer numbers","addition of two digits natural numbers","SUCCESS","2017-05-26T09:48:42.373+02:00","0.0","40.76"
+"as a user I want to be able to use the calculator to add two integer numbers","simple addition of single digit natural numbers","SUCCESS","2017-05-26T09:47:31.581+02:00","0.0","67.73"

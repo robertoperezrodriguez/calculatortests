@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"as a user I want to be able to subtract two integer numbers","subtraction of two single digit natural numbers with negative result","SUCCESS","2017-05-26T09:56:53.510+02:00","0.0","42.49"
+"as a user I want to be able to subtract two integer numbers","subtraction of two single digit natural numbers with positive result","SUCCESS","2017-05-26T09:56:07.708+02:00","0.0","43.86"

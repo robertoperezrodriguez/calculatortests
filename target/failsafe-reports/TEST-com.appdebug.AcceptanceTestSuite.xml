@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.appdebug.AcceptanceTestSuite" time="32.173" tests="75" errors="2" skipped="0" failures="10">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\jdk1.8.0_111\jre\bin"/>
+    <property name="java.vm.version" value="25.111-b14"/>
+    <property name="user.country.format" value="NL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/veon/testing"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\veon\testing"/>
+    <property name="java.runtime.version" value="1.8.0_111-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\jdk1.8.0_111\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\rperez\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\rperez\bin;C:\Git\mingw64\bin;C:\Git\usr\local\bin;C:\Git\usr\bin;C:\Git\usr\bin;C:\Git\mingw64\bin;C:\Git\usr\bin;C:\Users\rperez\bin;C:\Python36-32\Scripts;C:\Python36-32;C:\ProgramData\Oracle\Java\javapath;C:\Mozilla_Firefox_32;C:\jdk1.8.0_111\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\MiKTeX 2.9\miktex\bin;C:\LyX 2.2\Perl\bin;C:\apache-maven-3.3.9\bin;C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin;C:\nodejs;C:\Vagrant\bin;C:\Git\usr\bin;C:\sbt\bin;C:\TortoiseSVN\bin;C:\phantomjs-2.1.1-windows\bin;C:\SlikSvn\bin;C:\chromedriver_win32;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Microsoft Network Monitor 3;C:\Ruby23\bin;C:\Users\rperez\AppData\Local\Microsoft\WindowsApps;C:\Users\rperez\AppData\Roaming\npm;C:\Users\rperez\AppData\Local\atom\bin;C:\Git\usr\bin\vendor_perl;C:\Git\usr\bin\core_perl;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\rperez"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="RPerez"/>
+    <property name="java.class.path" value="C:/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\jdk1.8.0_111\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="nl"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_111"/>
+    <property name="java.ext.dirs" value="C:\jdk1.8.0_111\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\jdk1.8.0_111\jre\lib\resources.jar;C:\jdk1.8.0_111\jre\lib\rt.jar;C:\jdk1.8.0_111\jre\lib\sunrsasign.jar;C:\jdk1.8.0_111\jre\lib\jsse.jar;C:\jdk1.8.0_111\jre\lib\jce.jar;C:\jdk1.8.0_111\jre\lib\charsets.jar;C:\jdk1.8.0_111\jre\lib\jfr.jar;C:\jdk1.8.0_111\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.3.9"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When the user fills in the first argument with &apos;1&apos;" classname="Scenario: simple addition of single digit natural numbers" time="0.001"/>
+  <testcase name="And the user fills in the second argument with &apos;2&apos;" classname="Scenario: simple addition of single digit natural numbers" time="0"/>
+  <testcase name="And the user selects addition" classname="Scenario: simple addition of single digit natural numbers" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;3&apos;" classname="Scenario: simple addition of single digit natural numbers" time="0"/>
+  <testcase name="Scenario: simple addition of single digit natural numbers" classname="Scenario: simple addition of single digit natural numbers" time="4.425"/>
+  <testcase name="When the user fills in the first argument with &apos;11&apos;" classname="Scenario: addition of two digits natural numbers" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;22&apos;" classname="Scenario: addition of two digits natural numbers" time="0.003"/>
+  <testcase name="And the user selects addition" classname="Scenario: addition of two digits natural numbers" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;33&apos;" classname="Scenario: addition of two digits natural numbers" time="0"/>
+  <testcase name="Scenario: addition of two digits natural numbers" classname="Scenario: addition of two digits natural numbers" time="3.281"/>
+  <testcase name="When the user fills in the first argument with &apos;11&apos;" classname="Scenario: addition of one positive and one negative number" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;-22&apos;" classname="Scenario: addition of one positive and one negative number" time="0"/>
+  <testcase name="And the user selects addition" classname="Scenario: addition of one positive and one negative number" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;-11&apos;" classname="Scenario: addition of one positive and one negative number" time="0.004">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '-11'(arithmetic operations/addition.feature:19)
+]]></failure>
+    <system-err><![CDATA[[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-1968944634568484362
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\8b6fe9d80087deed776bc139337cef359b49f269f9793240e586f5fef618485e.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\66d48fdb2815ada32d290cf563d03f7b3de5d0ec40c91c86e94af3b63a4e96fe.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\66d48fdb2815ada32d290cf563d03f7b3de5d0ec40c91c86e94af3b63a4e96fe.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\058e14a333cf6cd02a76797f11101f26c8a02f68138bb4e4262adf1e749e6f40.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\058e14a333cf6cd02a76797f11101f26c8a02f68138bb4e4262adf1e749e6f40.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\5f2ad161e21cc6a8b0c6620ab675258560307af55e0ffcff0d7ed50ea20344bf.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\5f2ad161e21cc6a8b0c6620ab675258560307af55e0ffcff0d7ed50ea20344bf.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-14919221696971885
+[main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.the_user_should_see_as_result_the_value - shouldSeeResult
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\5f2ad161e21cc6a8b0c6620ab675258560307af55e0ffcff0d7ed50ea20344bf.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\5f2ad161e21cc6a8b0c6620ab675258560307af55e0ffcff0d7ed50ea20344bf.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\5f2ad161e21cc6a8b0c6620ab675258560307af55e0ffcff0d7ed50ea20344bf.png
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: addition of one positive and one negative number" classname="Scenario: addition of one positive and one negative number" time="0.004">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '-11'(arithmetic operations/addition.feature:19)
+]]></failure>
+  </testcase>
+  <testcase name="When the user fills in the first argument with &apos;4&apos;(Scenario: division of two positive integers " classname="When the user fills in the first argument with &apos;4&apos;(Scenario: division of two positive integers (exact result))" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;2&apos;(Scenario: division of two positive integers " classname="And the user fills in the second argument with &apos;2&apos;(Scenario: division of two positive integers (exact result))" time="0"/>
+  <testcase name="And the user selects division(Scenario: division of two positive integers " classname="And the user selects division(Scenario: division of two positive integers (exact result))" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;2&apos;(Scenario: division of two positive integers " classname="Then the user should see as result the value &apos;2&apos;(Scenario: division of two positive integers (exact result))" time="0"/>
+  <testcase name="Scenario: division of two positive integers " classname="exact result" time="3.277"/>
+  <testcase name="When the user fills in the first argument with &apos;-4&apos;(Scenario: division of two negative integers " classname="When the user fills in the first argument with &apos;-4&apos;(Scenario: division of two negative integers (exact result))" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;-2&apos;(Scenario: division of two negative integers " classname="And the user fills in the second argument with &apos;-2&apos;(Scenario: division of two negative integers (exact result))" time="0"/>
+  <testcase name="And the user selects division(Scenario: division of two negative integers " classname="And the user selects division(Scenario: division of two negative integers (exact result))" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;2&apos;(Scenario: division of two negative integers " classname="Then the user should see as result the value &apos;2&apos;(Scenario: division of two negative integers (exact result))" time="0"/>
+  <testcase name="Scenario: division of two negative integers " classname="exact result" time="3.219"/>
+  <testcase name="When the user fills in the first argument with &apos;4&apos;(Scenario: division of a positive and a negative integer " classname="When the user fills in the first argument with &apos;4&apos;(Scenario: division of a positive and a negative integer (exact result))" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;-2&apos;(Scenario: division of a positive and a negative integer " classname="And the user fills in the second argument with &apos;-2&apos;(Scenario: division of a positive and a negative integer (exact result))" time="0"/>
+  <testcase name="And the user selects division(Scenario: division of a positive and a negative integer " classname="And the user selects division(Scenario: division of a positive and a negative integer (exact result))" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;-2&apos;(Scenario: division of a positive and a negative integer " classname="Then the user should see as result the value &apos;-2&apos;(Scenario: division of a positive and a negative integer (exact result))" time="0.001">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '-2'(arithmetic operations/division.feature:19)
+]]></failure>
+    <system-err><![CDATA[[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7380040089440653183
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\9d929afdf34766a0130f66660cd326c8f2c118919e988d284e220ddaa3ad5b87.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\a8a2ae3534d006dfd16eaf42adb53664cb9fef1e5da1881e7e31fd0e4fb7f08c.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\a8a2ae3534d006dfd16eaf42adb53664cb9fef1e5da1881e7e31fd0e4fb7f08c.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7527487593564339467
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a8a2ae3534d006dfd16eaf42adb53664cb9fef1e5da1881e7e31fd0e4fb7f08c.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\ae83fb9ad914e54c3ea506483c90eb86a279c8459a7fede9539fbed1224420ad.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\ae83fb9ad914e54c3ea506483c90eb86a279c8459a7fede9539fbed1224420ad.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-410154804115051273
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\ae83fb9ad914e54c3ea506483c90eb86a279c8459a7fede9539fbed1224420ad.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\a8a2ae3534d006dfd16eaf42adb53664cb9fef1e5da1881e7e31fd0e4fb7f08c.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\a8a2ae3534d006dfd16eaf42adb53664cb9fef1e5da1881e7e31fd0e4fb7f08c.png
+[main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.the_user_should_see_as_result_the_value - shouldSeeResult
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\ae83fb9ad914e54c3ea506483c90eb86a279c8459a7fede9539fbed1224420ad.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\ae83fb9ad914e54c3ea506483c90eb86a279c8459a7fede9539fbed1224420ad.png
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: division of a positive and a negative integer " classname="exact result" time="0.001">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '-2'(arithmetic operations/division.feature:19)
+]]></failure>
+  </testcase>
+  <testcase name="When the user fills in the first argument with &apos;4&apos;" classname="Scenario: division of a integer by zero" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;0&apos;" classname="Scenario: division of a integer by zero" time="0"/>
+  <testcase name="And the user selects division" classname="Scenario: division of a integer by zero" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;NaN&apos;" classname="Scenario: division of a integer by zero" time="0.009">
+    <error message="Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;LPRPEREZ2&apos;, ip: &apos;192.168.33.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;LPRPEREZ2&apos;, ip: &apos;192.168.33.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.throwNoSuchElementExceptionWithCauseIfPresent(WebElementFacadeImpl.java:801)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:774)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:871)
+	at com.appdebug.pages.user_flow.Calculator.getResult(Calculator.java:68)
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.SerenityFeatureRunner.runChild(SerenityFeatureRunner.java:61)
+	at cucumber.runtime.junit.SerenityFeatureRunner.runChild(SerenityFeatureRunner.java:17)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.runChild(CucumberWithSerenity.java:177)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.runChild(CucumberWithSerenity.java:43)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:768)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:871)
+	at com.appdebug.pages.user_flow.Calculator.getResult(Calculator.java:68)
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.SerenityFeatureRunner.runChild(SerenityFeatureRunner.java:61)
+	at cucumber.runtime.junit.SerenityFeatureRunner.runChild(SerenityFeatureRunner.java:17)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.runChild(CucumberWithSerenity.java:177)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.runChild(CucumberWithSerenity.java:43)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-err><![CDATA[[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-9031989756310054991
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\782dbdcf01d81970f74f74a94239d5cd1973f6fc1e88a5dc8e986a736109a8bd.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\95daf453d3a91cbb62ed4f01413eccfd7e16328ecd1795a6eb928e9b5bed04bb.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\95daf453d3a91cbb62ed4f01413eccfd7e16328ecd1795a6eb928e9b5bed04bb.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5725677822102331081
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\95daf453d3a91cbb62ed4f01413eccfd7e16328ecd1795a6eb928e9b5bed04bb.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\95daf453d3a91cbb62ed4f01413eccfd7e16328ecd1795a6eb928e9b5bed04bb.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\95daf453d3a91cbb62ed4f01413eccfd7e16328ecd1795a6eb928e9b5bed04bb.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\95daf453d3a91cbb62ed4f01413eccfd7e16328ecd1795a6eb928e9b5bed04bb.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\95daf453d3a91cbb62ed4f01413eccfd7e16328ecd1795a6eb928e9b5bed04bb.png
+[main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.the_user_should_see_as_result_the_value - shouldSeeResult
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\2f64a7b3f7a44c30f07951ea9e98e4bad8a0b1dba19f9751c15f9e313eb04e55.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\2f64a7b3f7a44c30f07951ea9e98e4bad8a0b1dba19f9751c15f9e313eb04e55.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3123186764708262573
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\2f64a7b3f7a44c30f07951ea9e98e4bad8a0b1dba19f9751c15f9e313eb04e55.png
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: division of a integer by zero" classname="Scenario: division of a integer by zero" time="0.023">
+    <error message="Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;LPRPEREZ2&apos;, ip: &apos;192.168.33.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;&#10;System info: host: &apos;LPRPEREZ2&apos;, ip: &apos;192.168.33.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: driver.version: unknown" type="net.serenitybdd.core.exceptions.SerenityManagedException"><![CDATA[net.serenitybdd.core.exceptions.SerenityManagedException: Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.throwNoSuchElementExceptionWithCauseIfPresent(WebElementFacadeImpl.java:801)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:774)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:871)
+	at com.appdebug.pages.user_flow.Calculator.getResult(Calculator.java:68)
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.SerenityFeatureRunner.runChild(SerenityFeatureRunner.java:61)
+	at cucumber.runtime.junit.SerenityFeatureRunner.runChild(SerenityFeatureRunner.java:17)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.runChild(CucumberWithSerenity.java:177)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.runChild(CucumberWithSerenity.java:43)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for By.AccessibilityId: result to be displayed
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LPRPEREZ2', ip: '192.168.33.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:292)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.checkPresenceOfWebElement(WebElementFacadeImpl.java:768)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getText(WebElementFacadeImpl.java:871)
+	at com.appdebug.pages.user_flow.Calculator.getResult(Calculator.java:68)
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.SerenityFeatureRunner.runChild(SerenityFeatureRunner.java:61)
+	at cucumber.runtime.junit.SerenityFeatureRunner.runChild(SerenityFeatureRunner.java:17)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.runChild(CucumberWithSerenity.java:177)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.runChild(CucumberWithSerenity.java:43)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+  </testcase>
+  <testcase name="When the user fills in the first argument with &apos;0&apos;" classname="Scenario: division of zero by an integer" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;1&apos;" classname="Scenario: division of zero by an integer" time="0"/>
+  <testcase name="And the user selects division" classname="Scenario: division of zero by an integer" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;0&apos;" classname="Scenario: division of zero by an integer" time="0"/>
+  <testcase name="Scenario: division of zero by an integer" classname="Scenario: division of zero by an integer" time="3.71"/>
+  <testcase name="When the user fills in the first argument with &apos;2&apos;" classname="Scenario: multiplication of two positive integers" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;1&apos;" classname="Scenario: multiplication of two positive integers" time="0"/>
+  <testcase name="And the user selects multiplication" classname="Scenario: multiplication of two positive integers" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;2&apos;" classname="Scenario: multiplication of two positive integers" time="0"/>
+  <testcase name="Scenario: multiplication of two positive integers" classname="Scenario: multiplication of two positive integers" time="3.615"/>
+  <testcase name="When the user fills in the first argument with &apos;2&apos;" classname="Scenario: multiplication of one positive and one negative integer" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;-1&apos;" classname="Scenario: multiplication of one positive and one negative integer" time="0"/>
+  <testcase name="And the user selects multiplication" classname="Scenario: multiplication of one positive and one negative integer" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;-2&apos;" classname="Scenario: multiplication of one positive and one negative integer" time="0.001">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '-2'(arithmetic operations/multiplication.feature:14)
+]]></failure>
+    <system-err><![CDATA[[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7274356123782461460
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\a9ab26118f629e0e2a93e4a8b2fecbfc561958c1775e06a77cbe7315537befde.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\0ad9f548d6fe2333659dc2be48877cf6c89a6db8cdca77ba5305774cd3850e9f.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\0ad9f548d6fe2333659dc2be48877cf6c89a6db8cdca77ba5305774cd3850e9f.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-7075753380917243918
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\0ad9f548d6fe2333659dc2be48877cf6c89a6db8cdca77ba5305774cd3850e9f.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\bea01510676264ab6f794a1ff12a07c5f9793c0fc192bbcd321c9d1a76bf66c5.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\bea01510676264ab6f794a1ff12a07c5f9793c0fc192bbcd321c9d1a76bf66c5.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3566744391230592825
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\bea01510676264ab6f794a1ff12a07c5f9793c0fc192bbcd321c9d1a76bf66c5.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\bea01510676264ab6f794a1ff12a07c5f9793c0fc192bbcd321c9d1a76bf66c5.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\bea01510676264ab6f794a1ff12a07c5f9793c0fc192bbcd321c9d1a76bf66c5.png
+[main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.the_user_should_see_as_result_the_value - shouldSeeResult
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\bea01510676264ab6f794a1ff12a07c5f9793c0fc192bbcd321c9d1a76bf66c5.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\bea01510676264ab6f794a1ff12a07c5f9793c0fc192bbcd321c9d1a76bf66c5.png
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: multiplication of one positive and one negative integer" classname="Scenario: multiplication of one positive and one negative integer" time="0.001">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '-2'(arithmetic operations/multiplication.feature:14)
+]]></failure>
+  </testcase>
+  <testcase name="When the user fills in the first argument with &apos;-2&apos;" classname="Scenario: multiplication of two negative integers" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;-1&apos;" classname="Scenario: multiplication of two negative integers" time="0"/>
+  <testcase name="And the user selects multiplication" classname="Scenario: multiplication of two negative integers" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;2&apos;" classname="Scenario: multiplication of two negative integers" time="0"/>
+  <testcase name="Scenario: multiplication of two negative integers" classname="Scenario: multiplication of two negative integers" time="3.527"/>
+  <testcase name="When the user fills in the first argument with &apos;2&apos;" classname="Scenario: subtraction of two single digit natural numbers with positive result" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;1&apos;" classname="Scenario: subtraction of two single digit natural numbers with positive result" time="0"/>
+  <testcase name="And the user selects subtraction" classname="Scenario: subtraction of two single digit natural numbers with positive result" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;1&apos;" classname="Scenario: subtraction of two single digit natural numbers with positive result" time="0"/>
+  <testcase name="Scenario: subtraction of two single digit natural numbers with positive result" classname="Scenario: subtraction of two single digit natural numbers with positive result" time="3.47"/>
+  <testcase name="When the user fills in the first argument with &apos;1&apos;" classname="Scenario: subtraction of two single digit natural numbers with negative result" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;2&apos;" classname="Scenario: subtraction of two single digit natural numbers with negative result" time="0"/>
+  <testcase name="And the user selects subtraction" classname="Scenario: subtraction of two single digit natural numbers with negative result" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;-1&apos;" classname="Scenario: subtraction of two single digit natural numbers with negative result" time="0"/>
+  <testcase name="Scenario: subtraction of two single digit natural numbers with negative result" classname="Scenario: subtraction of two single digit natural numbers with negative result" time="3.595"/>
+  <testcase name="When the user fills in the first argument with &apos;1&apos;" classname="Scenario: subtraction of a positive and a negative integer" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;-2&apos;" classname="Scenario: subtraction of a positive and a negative integer" time="0"/>
+  <testcase name="And the user selects subtraction" classname="Scenario: subtraction of a positive and a negative integer" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;3&apos;" classname="Scenario: subtraction of a positive and a negative integer" time="0.001">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '3'(arithmetic operations/subtraction.feature:19)
+]]></failure>
+    <system-err><![CDATA[[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6239655686281280506
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\3921c5d3aefa668a8b26d540d9b391690040d91d2fa4f7bcfe41ca9b14c807cf.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-6755786448968490347
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.the_user_should_see_as_result_the_value - shouldSeeResult
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\e4b81f7d8ca57f20f5cf7018b7dd2e34763d304ee8353faf1c5e854a8f00e7e4.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\e4b81f7d8ca57f20f5cf7018b7dd2e34763d304ee8353faf1c5e854a8f00e7e4.png
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-4913800161619303750
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: subtraction of a positive and a negative integer" classname="Scenario: subtraction of a positive and a negative integer" time="0.002">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '3'(arithmetic operations/subtraction.feature:19)
+]]></failure>
+  </testcase>
+  <testcase name="When the user fills in the first argument with &apos;-1&apos;" classname="Scenario: subtraction of two negative numbers" time="0"/>
+  <testcase name="And the user fills in the second argument with &apos;-2&apos;" classname="Scenario: subtraction of two negative numbers" time="0"/>
+  <testcase name="And the user selects subtraction" classname="Scenario: subtraction of two negative numbers" time="0"/>
+  <testcase name="Then the user should see as result the value &apos;1&apos;" classname="Scenario: subtraction of two negative numbers" time="0.001">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '1'(arithmetic operations/subtraction.feature:25)
+]]></failure>
+    <system-err><![CDATA[[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-3378909881402357564
+[Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to target\site\serenity\6c28110609a461f4db4706048bb8493f9447cdb9f8e6d801e7d801e8e950d075.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\e4b81f7d8ca57f20f5cf7018b7dd2e34763d304ee8353faf1c5e854a8f00e7e4.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\e4b81f7d8ca57f20f5cf7018b7dd2e34763d304ee8353faf1c5e854a8f00e7e4.png
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: UserSteps.the_user_should_see_as_result_the_value - shouldSeeResult
+[main] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+[main] DEBUG net.serenitybdd.core.photography.PhotoSession - Screenshot scheduled to be saved to target\site\serenity\76634ca3748d681b4124fd2a678437d8f5271b08b0965ce69d2c36a3a6ad0762.png
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: subtraction of two negative numbers" classname="Scenario: subtraction of two negative numbers" time="0.002">
+    <failure type="java.lang.AssertionError:"><![CDATA[java.lang.AssertionError: null
+	at com.appdebug.steps.serenity.UserFlow.shouldSeeResult(UserFlow.java:44)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.CGLIB$shouldSeeResult$5(<generated>)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8$$FastClassByCGLIB$$562726b1.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:372)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:357)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:332)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
+	at com.appdebug.steps.serenity.UserFlow$$EnhancerByCGLIB$$f8cbea8.shouldSeeResult(<generated>)
+	at com.appdebug.steps.UserSteps.the_user_should_see_as_result_the_value(UserSteps.java:47)
+	at ✽.Then the user should see as result the value '1'(arithmetic operations/subtraction.feature:25)
+]]></failure>
+  </testcase>
+</testsuite>
